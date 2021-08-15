@@ -17,4 +17,4 @@ require("channels")
 
 import 'bootstrap'
 
-import '../src/application.css'
+import '../src/application.css';
