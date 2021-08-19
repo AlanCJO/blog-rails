@@ -13,6 +13,8 @@ gem 'webpacker', '~> 4.0'
 gem 'bootsnap', '>= 1.4.2', require: false
 
 gem 'rails-i18n'
+gem 'friendly_id', '~> 5.4', '>= 5.4.2'
+gem 'pg_search'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
