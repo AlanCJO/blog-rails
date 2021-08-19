@@ -1,6 +1,5 @@
 class CommentsController < ApplicationController
   def create
-    binding.pry
     comment = Comment.create!(comments_params)
 
     redirect_to comment.post, notice: 'O seu comentário foi enviado!'
