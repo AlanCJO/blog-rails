@@ -6,6 +6,8 @@ class Post < ApplicationRecord
 
   has_many :comments, dependent: :destroy
 
+  paginates_per 5
+
   friendly_id :title, use: :slugged
 
   pg_search_scope :search,
