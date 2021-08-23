@@ -20,6 +20,9 @@
     </header>
 
     <div class="container">
+      <p class="notice"><%= notice %></p>
+      <p class="alert"><%= alert %></p>
+
       <% flash.each do |type, message| %>
         <div class="alert alert-<%= type == 'alert' ? 'danger' : 'success' %> alert dismissible fade show" role="alert">
           <%= message %>

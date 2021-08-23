@@ -11,6 +11,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'webpacker', '~> 4.0'
 # gem 'kaminari', '~> 1.2', '>= 1.2.1'
 gem 'kaminari', :git => 'https://github.com/kaminari/kaminari'
+gem 'devise'
 
 gem 'bootsnap', '>= 1.4.2', require: false
 
