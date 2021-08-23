@@ -11,6 +11,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'webpacker', '~> 4.0'
 # gem 'kaminari', '~> 1.2', '>= 1.2.1'
 gem 'kaminari', :git => 'https://github.com/kaminari/kaminari'
+gem 'devise'
 
 gem 'bootsnap', '>= 1.4.2', require: false
 
@@ -21,7 +22,6 @@ gem 'pg_search'
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'pry'
-  gem 'pry-byebug'
   gem 'pry-remote'
 end
 
